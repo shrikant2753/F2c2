@@ -215,10 +215,10 @@ function showNonVegRecipes() {
 // Function to implement filter by rating functionality
 function filterByRating(minRating, maxRating) {
     const filteredRecipes = recipes.filter(
-        (recipe) => recipe.rating >= minRating && recipe.rating <= maxRating
+      (recipe) => recipe.rating >= minRating && recipe.rating <= maxRating
     );
     displayRecipes(filteredRecipes);
-}
+  }
 
 // Event Listeners
 const searchBar = document.getElementById('searchBar');
@@ -236,15 +236,24 @@ searchBar.addEventListener('input', (event) => {
 // showVegBtn.addEventListener('click', showVegRecipes);
 // showNonVegBtn.addEventListener('click', showNonVegRecipes);
 
-const ratingFilter = document.getElementsByName('rating');
-ratingFilter.forEach((radio) => {
-    radio.addEventListener('change', () => {
-        if (radio.value === 'above4.5') {
-            filterByRating(4.5, 5.0);
-        } else if (radio.value === 'below4.0') {
-            filterByRating(0.0, 4.0);
-        }
-    });
+// Event Listeners for the checkboxes
+const above4Checkbox = document.getElementById('above4Checkbox');
+const below4Checkbox = document.getElementById('below4Checkbox');
+
+above4Checkbox.addEventListener('change', () => {
+  if (above4Checkbox.checked) {
+    filterByRating(4.0, 5.0);
+  } else {
+    showAllRecipes();
+  }
+});
+
+below4Checkbox.addEventListener('change', () => {
+  if (below4Checkbox.checked) {
+    filterByRating(0.0, 3.9);
+  } else {
+    showAllRecipes();
+  }
 });
 
 const likeButtons = document.querySelectorAll('.like-btn');
