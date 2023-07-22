@@ -1,0 +1,415 @@
+*{
+    /* margin: 0px 10px; */
+    padding: 0px;
+}
+
+.main-container{
+    margin: 0px 88px;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    margin-bottom: 30px;
+    /* border: 2px solid #509E2F; */
+}
+
+.nav-container .left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 135px;
+}
+
+
+.nav-container .right{
+    padding-right: 88px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 88px;
+}
+
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    color: #509E2F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: #253D4E;
+}
+
+.navlinks a:visited{
+    color: #509e2f;
+}
+
+.profile img{
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+}
+
+
+/* banner */
+.banner img{
+    /* position:static; */
+    height: 355px;
+    width: 100%;
+    background: (90deg, #252525 0%, rgba(0, 0, 0, 0.00) 100%) lightgray 50% / cover no-repeat;
+    border-radius: 30px;
+    /* padding-top: 50px; */
+}
+
+.group9{
+    color: #252525;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 23px;
+margin-bottom: 23px;
+}
+
+/* searchbar */
+.searchbar {
+    display: flex;
+    width: 100%;
+    max-width: 1225px;
+    height: 42px;
+    padding: 12px;
+    align-items: center;
+    gap: 7px;
+    flex-shrink: 0;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.searchbar input[type="search"] {
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #f0f0f0;
+}
+
+.searchbar img {
+    width: 20px;
+    height: 20px;
+}
+
+.backsearchimg{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 55px;
+    height: 42px;
+    padding: 21px;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    flex-shrink: 0;
+    border-radius: 0px 2px 2px 0px;
+    background: #509E2F;
+}
+
+.backsearchimg img{
+    width: 24px;
+    height: 24px;
+}
+
+/* frame 18123 */
+.frame18123{
+    margin-top: 23px;
+    margin-bottom: 23px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: #fff;
+}
+
+.frame18123 .frame18124{
+    display: flex;
+    width: 236.8px;
+    height: 86px;
+    padding: 30px 29.8px 30px 29px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background: #EAAA00;
+    color: #fff;
+}
+
+.frame18123 .frame18125{
+    display: flex;
+    width: 236.8px;
+    height: 86px;
+    padding: 30px 26.6px 30px 27.2px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background: #C4D600;
+    color: #fff;
+}
+
+.frame18123 .frame18126{
+    display: flex;
+    width: 236.8px;
+    height: 86px;
+    padding: 30px 22.4px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background: #DC582A;
+    color: #fff;
+}
+
+
+/* recipeContainer cards */
+#recipeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#recipeContainer img{
+    display: flex;
+    width: 289px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+#recipeContainer .type{
+    color: #A1A1A1;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 240% */
+padding-left: 13px;
+}
+
+#recipeContainer .title{
+    color: #252525;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 120% */
+}
+
+#recipeContainer .duration{
+    color: #DC582A;
+/* Headings/h3 */
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 136.523%; /* 27.305px */
+}
+
+button{
+    background: transparent; 
+    border: none;
+}
+
+.upper, .lower{
+    padding-left: 13px;
+    padding-right: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.star-rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    gap: 15px;
+}
+
+/* liked */
+.like-comment{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 17px;
+}
+
+/* liked button */
+
+.like-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.like-btn .heart-icon {
+    width: 22px;
+    height: 23px;
+    background-repeat:round;
+    background-position: center;
+}
+
+.like-btn .liked {
+    background-color: transparent; /* Add your desired color for the liked state here */
+}
+
+.like-btn.liked .heart-icon {
+    background-image: url('./images/heart-solid.svg'); /*Add the filled heart icon image URL*/
+}
+
+.like-btn:not(.liked) .heart-icon { 
+    background-image: url('./images/like.png'); /* Add the outlined heart icon image URL */
+     background-color: transparent;
+}
+
+
+/* footer */
+.footer-container{
+    margin-top: 80px;
+    margin-right: 70px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.one,
+.four {
+    flex: 30%;
+    /* Add any other common styles here */
+}
+
+/* Common styles for divs two and three */
+.two,
+.three {
+    flex: 20%;
+    /* Add any other common styles here */
+}
+
+.content .one p{
+    color: #253D4E;
+text-align: justify;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.content .two h3{
+    /* text-align: center; */
+    color: #253D4E;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 130% */
+}
+
+.content .two li{
+    color: var(--black-alpha-60, rgba(0, 0, 0, 0.60));
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+list-style-type: none;
+margin-top: 15px;
+}
+
+.content .three h3{
+    color: #253D4E;
+
+/* Archivo/Heading/XX Small */
+font-family: Archivo;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 130% */
+}
+
+.content .three li{
+    color: var(--black-alpha-60, rgba(0, 0, 0, 0.60));
+
+/* Archivo/Body/Button */
+font-family: Archivo;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+letter-spacing: 0.32px;
+list-style-type: none;
+margin-top: 15px;
+}
+
+.content .four p{
+    color: var(--black-alpha-60, rgba(0, 0, 0, 0.60));
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.28px;
+align-self: stretch;
+}
+
+.content .four button{
+    color: var(--purple-05, #FCFAFF);
+    text-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.16);
+    padding: 5px 15px;
+    
+    /* Archivo/Body/Button */
+    font-family: Archivo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.32px;
+    border-radius: 4px;
+background: #509E2F;
+box-shadow: 0px -1px 4px 0px rgba(0, 0, 0, 0.16) inset;
+}
+
+.email-subscribe{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: #253D4E;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+letter-spacing: 0.32px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
