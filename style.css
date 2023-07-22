@@ -175,9 +175,48 @@ margin-bottom: 23px;
     color: #fff;
 }
 
+/* Rating filter */
+
+.filter-text{
+    color: #252525;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 20px;
+margin-left: 15px;
+}
+
+.rating-op{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 12px, 15px;
+}
+.rating-op label{
+    color: #253D4E;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.rating-op h2{
+    color: #252525;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 30px;
+}
+
 
 /* recipeContainer cards */
 #recipeContainer {
+    margin-top:20px ;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
