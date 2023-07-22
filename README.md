@@ -5,5 +5,6 @@
  ## Display Recipes
  ## Search Recipes
  ## Toggle Recipe Type
+ ## Rating Filter
  ## Like Feature 
  ### Above functionalities are in work
